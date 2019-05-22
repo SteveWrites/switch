@@ -1,18 +1,92 @@
-#Author: Steve Writes 22/5/2019.
-#Getting Started
-This is a JavaScript code that compares different programming languages using JS switch case.
+# JavaScript Switch case
 
-#Installing
-To  view this project on your browser, go to  https://github.com/SteveWrites/switch.git. Clone or download it on your desired folder.
-After cloning open your folder and view on your desired folder.
+This is a JavaScript code for learning switch in JavaScript.
 
-#Technologies Used.
-JavaScript
+## Getting Started
 
-##Known Bugs.
-There are no known bugs yet.
+To get this project on your machine.
+Do the following;
+Clone or download the project on this link https://github.com/SteveWrites/switch.git
+Save the downloaded file on your desired folder.
+Open your file and view the project on your desired browser.
 
 
-#License:
-This software is licensed by MIT Copyright:Steve Writes.
-JavaScript switch case @2019
+### Prerequisites
+
+Use the following softwares 
+
+```
+Give examples
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
