@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div
+          <div class="col-md-4">
+             <form name="signup" action="submit" onsubmit="return validateForm()">
+               <div>
+                 <label for="first name"><b>First name</b></label>
+                <input type="text" placeholder="first name" name="f_name">
+               </div>
+               <div class="">
+                 <label for="last name"><b>Last name</b></label>
+                <input type="text" placeholder="Enter Last name" name="l_name">
+               </div>
+
+
+               <div class="">
+                 <label for="email"><b>Email</b></label>
+                <input type="Email" placeholder="Enter Email" name="email">
+               </div>
+               <div>
+                 <label for="psw"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw">
+
+               </div>
+               <div>
+                 <button type="submit" class="btn btn-success">Sign Up</button>
+               </div>
+
+             </form>
+
+            <div class="col-md-4"></div>
+            </div>
+
+
+      </div>
+      <script type="text/javascript">
+      function validateForm() {
+        var x = document.forms["signup"]["f_name"].value;
+        var y = document.forms["signup"]["l_name"].value;
+        var z = document.forms["signup"]["email"].value;
+        var v = document.forms["signup"]["psw"].value;
+        if (x == "") {
+        alert("Name must be filled out");
+         return false;
+  }
+  if (y== "") {
+    alert("name must be filled");
+    return false;
+  }
+  if (z== "") {
+    alert("email must be filled");
+    return false;
+  }
+  if (v== "") {
+    alert("password must be filled");
+    return false;
+  }
+}
+      </script>
+    </div>
+  </body>
+</html>
